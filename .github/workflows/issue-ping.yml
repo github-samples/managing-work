@@ -1,0 +1,27 @@
+name: Issue automation lab sample
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  issues: write
+  contents: read
+  
+jobs:
+  respond_to_ping:
+    runs-on: ubuntu-latest
+    if: contains(github.event.comment.body, 'ping')
+    
+    steps:
+      - name: Respond with pong
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: 'pong'
+            });

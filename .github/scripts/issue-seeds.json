@@ -1,0 +1,23 @@
+[
+    { "id": 0, "title": "Learning GitHub Issues Batch" },
+    { "id": 1, "title": "Exercise Project Fundamentals", "type": "Feature"},
+        { "title": "Create a new project", "type": "Task", "parent": 1},
+        { "title": "Add all of the remaining issues", "type": "Task", "parent": 1},
+    { "id": 2, "title": "Customize Status and Fields", "type": "Feature", "labels": "enhancement" },
+        { "title": "Add priority field", "type": "Task", "parent": 2},
+        { "title": "Add start and end date fields", "type": "Task", "parent": 2},
+        { "title": "Add 'Paused' status", "type": "Task", "parent": 2},
+    { "id": 3, "title": "Filter Project Data", "type": "Feature", "labels": "enhancement" },
+        { "title": "Rename view 'Feature Planning'", "type": "Task", "parent": 3},
+        { "title": "Add Feature/Bug filter", "type": "Task", "parent": 3},
+    { "id": 4, "title": "Add 'Release Planning' view", "type": "Feature" },
+        { "title": "Populate date fields", "type": "Task", "parent": 4},
+        { "title": "Duplicate 'Feature Planning'", "type": "Task", "parent": 4},
+        { "title": "Rename to 'Release Roadmap' and set 'Roadmap' view", "type": "Task", "parent": 4},
+        { "title": "Scale to quarter and sort by End date", "type": "Task", "parent": 4},
+        { "title": "Refine release dates", "type": "Task", "parent": 4},
+    { "id": 5, "title": "Add Board view for tasks", "type": "Feature" },
+        { "title": "Add a view named 'Task Board' filtered on Tasks and untyped issues", "type": "Task", "parent": 5},
+        { "title": "Add a Parent Issue slice, Group by Assignees, and add the Labels field", "type": "Task", "parent": 5},
+    { "title": "Fix the typo in the README file", "type": "Bug", "body": "The 'Abstract' header on line 3 is misspelled." }
+]

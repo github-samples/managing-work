@@ -1,0 +1,32 @@
+on:
+  # Manual run with parameter for what to do
+  workflow_dispatch:
+    inputs:
+      command:
+        required: false
+        type: choice
+        options:
+        - --delete
+        - --seed-all
+  # Automatic run when this is first created from a template
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/.run-once
+
+permissions: 
+  issues: write
+  contents: read
+
+jobs:
+  seed_issues:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4.2.2
+    - run: ./prepare-lab-env.sh $OPTION
+      shell: bash
+      working-directory: .github/scripts
+      env:
+        OPTION: ${{ inputs.command }}
+        GH_TOKEN: ${{ github.token }}
