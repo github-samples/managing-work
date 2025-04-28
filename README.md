@@ -14,7 +14,7 @@ Currently, this lab requires the environment provided at Microsoft Build 2025.  
 
 ## License 
 
-This project is licensed under the terms of the MIT open source license. Please refer to [MIT](./LICENSE.txt) for the full terms.
+This project is licensed under the terms of the MIT open source license. Please refer to the [LICENSE](./LICENSE) for the full terms.
 
 ## Maintainers 
 
