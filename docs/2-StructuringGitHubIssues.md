@@ -37,9 +37,9 @@ _Most development teams need more than simple issues to manage development proce
 - [ ] Add a parent Issue from a different repo.
   - One of the powerful capabilities in GitHub Issues it the ability to seamlessly track work between repos. In the right column of the issue form, locate the "Relationships" section and click the gear icon.
   - Click **Add parent**
-  - Notice that above the Search issues text there is an arrow with your repo name (e.g., <-- my-org/my-repo). ***TODO - Specify correct parent issue repo***
-  - Click on the **left arrow** (![Left arrow](./images/left-arrow.jpeg)) to search for a different repo, and enter the text `Lab302-Template`.
-  - Select the **Lan302-Template** repo and then select the **Parent of all labs** issue as the new parent.
+  - Notice that above the Search issues text there is an arrow with your repo name (e.g., <-- Microsoft-Build-2025/my-repo).
+  - Click on the **left arrow** (![Left arrow](./images/left-arrow.jpeg)) to search for a different repo, and enter the text `Lab302-Parent`.
+  - Select the **Lab302-Parent** repo and then select the **Parent of all labs** issue as the new parent.
 - [ ] Verify the issue hierarchy
   - On the right side of the issue form, click on the parent issue that you just configured; this will open the parent issue that you just configured.
   - From the parent issue, click the Expand/Collapse button next to your issue and verify the hierarchy is similar to the following and contains your issues:
