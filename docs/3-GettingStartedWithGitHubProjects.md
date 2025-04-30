@@ -16,7 +16,7 @@ _GitHub Projects provide a management layer on top of Issues, including custom f
 - [ ] Add all of the remaining issues in your repo to the project.
   - Next to the "+" at the bottom of the table, type the hash symbol (#) to open the repo selector.
   - Click on your repo name.
-  - At the bottom of the popup list, select "Add items from *your-org/your repo*".
+  - At the bottom of the popup list, select "Add items from Microsoft-Build-2025/*your repo*".
   - In the top of the form, check **Select all items**.
   - Click the green **Add selected items** button in the lower-right of the form.
   - Click on the **X** on the top-right of the form to close it.

@@ -48,7 +48,7 @@ If you're not already there, access the project board and the default view.  If 
   - Click the green **Save** button to save changes.
 - [ ] Verify board interactions
   - Drag one of the issues from the "No Assignees" group into your assignee row; verify that it is now assigned to you (i.e., the user icon on the top-right of that card).
-  - Click on the **Learning GitHub Issues** parent issue; verify that it filters only show the three child issues assigned to that parent.
+  - Click on the **Learning GitHub Issues Batch** parent issue; verify that it filters only show the three child issues assigned to that parent.
   - Click on that parent issue again, or click on **deselect** in the slicer, and verify that all cards are shown again
   - Drag the "Investigate Issue Basics" issue to the "Done" column
   - Verify that the **Learning GitHub Issues Batch** in the Parent issue has been updated to show "2 / 3" or 66% complete.

@@ -23,11 +23,11 @@ _Most development teams need more than simple issues to manage development proce
 > GitHub defaults to types "Task", "Bug" and "Feature", but you can easily [create your own issue types](https://docs.github.com/en/enterprise-cloud@latest/issues/tracking-your-work-with-issues/configuring-issues/managing-issue-types-in-an-organization).
 
 - [ ] Add a new Task titled "Verify Issue Hierarchy" as a child of this feature.
-  - With the "Learning GitHub Issues Feature" issue still open, click the **Create sub-issue** button.
+  - With the "Learning GitHub Issues Batch" issue still open, click the **Create sub-issue** button.
   - Select **Blank Issue** as the template and enter `Verify Issue Hierarchy` as the title.
   - Set the **Issue Type** to **Task** and click the **Create** button.
 - [ ] Add the Task issues that you created earlier as children of this Feature.
-  - Click the dropdown arrow (image) on the **Create sub-issue** button, and select **Add existing issue**.
+  - Click the dropdown arrow on the **Create sub-issue** button, and select **Add existing issue**.
   - Locate and select the "Investigate Issue Basics" task; you can use the **Search issues** text box if it is difficult to locate.
   - Repeat the process to add the existing "Apply structure to GitHub Issues" task.
   

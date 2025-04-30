@@ -15,7 +15,7 @@ _Linking code to issues is a common pattern within GitHub. It is frequently used
   - Click on the green **Commit changes...** button near the top-right of the page.
   - In the "Extended description" textarea, type `Fixes `; there are [multiple keywords](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests) that can be used to link issues to code changes.
   - The **#** key is used to bring up issue reference.  Press **#** and review the list of issues.  Even if you see your issue, continue to the next step.
-  - You could type the issue number directly, reference an issue in a differnt repo, or type text to filter the issue list.  Complete typing "README" so that the list filters to show your issue (i.e., `Fixes #README`).
+  - You could type the issue number directly, reference an issue in a different repo, or type text to filter the issue list.  Complete typing "README" so that the list filters to show your issue (i.e., `Fixes #README`).
   - Click on the bug issue to complete the linkage; it will insert the issue number for you.
   - ***IMPORTANT:*** Change the radio button on the bottom of the form to select "Create a **new branch**..."; you can accept the default branch name or enter a different name if you'd like.
   - Click the **Propose changes** button.
@@ -26,6 +26,6 @@ _Linking code to issues is a common pattern within GitHub. It is frequently used
   - Since we added automation in an earlier exercise for the project, this pull request (PR) is automatically added to your project.  In the right-column of the page, click on the name of your project under the "Projects" section.
   - If not already selected, click on the **Feature Planning** tab.
   - Locate the bug; note that it's status was updated to done through a series of events: merging the PR with the "fixes" keyword closed the issue, and the project automation updated the status to "Done".
-  - Click on the bug to open it; scan down in the on the right column and look for the "Deveopment" section.
+  - Click on the bug to open it; scan down in the on the right column and look for the "Development" section.
   - Verify that the link to the PR in that section has the "merged" icon (![Merged icon](./images/merged-icon.jpeg)) showing that the merge is complete.
   - If you'd like, click on the PR to drill into it.  You can review all files, individually changed lines, and review feedabck in the PR as associated with this issue, and seamlessly move between the issue and the code changes.

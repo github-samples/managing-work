@@ -9,7 +9,4 @@ Let's create the repository you'll use for your workshop.
   - Navigate to `https://github.com/github-samples/managing-work` in the browser.
   - Click the **Use this template** > **Create a new repository** green buttons on the top-right of the page.
   - For the owner, verify (or select) **Microsoft-Build-2025**.
-  - Enter a repository name that you'll use for this lab. You can accept the defaults for the rest of this form and click **Create repository**.
-
-> [!TIP]
-> You can enter any valid repository name but remember that (1) others in this environment will see your repo and you'll see theirs (2) you may need to type the repo name later.  Consider something that includes your and the lab number (e.g., "L302forDave").
+  - Enter a repository name that you'll use for this lab (e.g., "Lab302-my-name"). You can accept the defaults for the rest of this form and click **Create repository**.
